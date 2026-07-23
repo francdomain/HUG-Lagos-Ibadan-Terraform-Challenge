@@ -90,6 +90,8 @@ By default, Terraform stores state locally. To use remote state with locking, de
    ```bash
    terraform apply
    ```
+![alt text](image.png)
+![alt text](image-1.png)
 
 6. **Access the web page:**
 
