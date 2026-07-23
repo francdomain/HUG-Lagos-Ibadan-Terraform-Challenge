@@ -33,8 +33,8 @@ By default, Terraform stores state locally. To use remote state with locking, de
    terraform plan
    terraform apply
    ```
-    ![alt text](/images/image.png)
-    ![alt text](/images/s3.png)
+    ![alt text](./images/image.png)
+    ![alt text](./images/s3.png)
 
 2. **Connect the root project to the backend:**
 
@@ -90,8 +90,8 @@ By default, Terraform stores state locally. To use remote state with locking, de
    ```bash
    terraform apply
    ```
-   ![alt text](/images/ec2-tf.png)
-   ![alt text](/images/ec2.png)
+   ![alt text](./images/ec2-tf.png)
+   ![alt text](./images/ec2.png)
 
 6. **Access the web page:**
 
