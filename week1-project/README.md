@@ -100,6 +100,7 @@ By default, Terraform stores state locally. To use remote state with locking, de
    ```bash
    terraform output website_url
    ```
+   ![alt text](./images/web.png)
 
 ## Useful Commands
 
