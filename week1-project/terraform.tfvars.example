@@ -1,0 +1,12 @@
+aws_region      = "us-east-1"
+environment     = "dev"
+user_full_name  = "Jane Doe"
+key_name        = null
+public_key_path = "/Users/mac/.ssh/id_rsa.pub"
+
+# Optional overrides
+# name_prefix          = "hug"
+# vpc_cidr             = "[IPV4_REDACTED]/16"
+# public_subnet_cidr   = "[IPV4_REDACTED]/24"
+# availability_zone    = "us-east-1a"
+# instance_type        = "t2.micro"
