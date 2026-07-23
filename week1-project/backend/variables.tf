@@ -7,6 +7,7 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "Globally unique name for the S3 bucket that stores Terraform state"
   type        = string
+  default     = "hug-terraform-challenge-state"
 }
 
 variable "dynamodb_table_name" {
