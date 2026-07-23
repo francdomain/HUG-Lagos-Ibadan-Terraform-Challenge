@@ -71,7 +71,7 @@ By default, Terraform stores state locally. To use remote state with locking, de
     public_key_path = "/home/user/.ssh/id_rsa.pub"
     ```
 
-    To use an AWS-managed key pair instead, set `key_name` as `null` and `public_key_path`.
+    To use an AWS-managed key pair instead, set `key_name` and leave `public_key_path` as `null`.
 
 3. **Initialize Terraform:**
 
