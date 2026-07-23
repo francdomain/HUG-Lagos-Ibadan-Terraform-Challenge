@@ -12,6 +12,7 @@ A minimal Terraform project that provisions an Nginx web server on AWS inside a 
   - SSH (`22`) from a configurable CIDR
   - HTTP (`80`) from anywhere
 - **EC2 Instance** (Ubuntu 22.04 LTS, `t2.micro`) bootstrapped with `user_data` to install Nginx and serve a simple HTML page.
+- **Optional remote state backend** (`backend/`): S3 bucket for state storage and DynamoDB table for state locking.
 
 ## Prerequisites
 
