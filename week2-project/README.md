@@ -50,6 +50,7 @@ The root project expects the S3 backend resources to exist before it can plan or
    cd ..
    terraform init -migrate-state
    ```
+   ![alt text](./screenshots/s3.png)
 
    > If the S3 bucket name is already taken, change `bucket_name` in `backend/terraform.tfvars` and the matching `backend "s3"` block in `providers.tf` before applying.
 
@@ -81,6 +82,7 @@ The root project expects the S3 backend resources to exist before it can plan or
    ```bash
    terraform apply
    ```
+   ![alt text](./screenshots/tf-apply.png)
    ![alt text](./screenshots/console.png)
 
 5. **Access the web page:**
