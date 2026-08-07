@@ -99,6 +99,8 @@ The root project expects the S3 backend resources to exist before it can plan or
    terraform apply
    ```
 
+   ![alt text](./screenshots/apply.png)
+
 5. **Access the web page:**
 
    After `apply` completes, open the URL shown in the `website_url` output:
@@ -106,6 +108,8 @@ The root project expects the S3 backend resources to exist before it can plan or
    ```bash
    terraform output website_url
    ```
+
+   ![alt text](./screenshots/webpage.png)
 
 ## Useful Commands
 
