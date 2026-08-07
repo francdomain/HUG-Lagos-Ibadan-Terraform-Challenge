@@ -1,0 +1,3 @@
+bucket         = "hug-terraform-challenge-wk3-state-YOUR-AWS-ACCOUNT-ID"
+region         = "us-east-1"
+dynamodb_table = "hug-terraform-challenge-wk3-state-lock"
