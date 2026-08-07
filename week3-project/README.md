@@ -142,12 +142,18 @@ The root project expects the S3 backend resources to exist before it can plan or
 
 ![alt text](./screenshots/vpc.png)
 
-- Screenshot of the AWS EC2 console showing the running instance (`screenshots/aws_console.png`)
+- Screenshot of the AWS EC2 console showing the running instance (`screenshots/ec2.png`)
 
 ![alt text](./screenshots/ec2.png)
 
-- Screenshot of the AWS RDS console showing the running database instance (`screenshots/rds_console.png`)
-- Screenshot of the Nginx landing page (`screenshots/webpage.png`)
+- Screenshot of the AWS RDS console showing the running database instance (`screenshots/rds.png`)
+
+![alt text](./screenshots/rds.png)
+
+- Screenshot of the HTML landing page (`screenshots/webpage.png`)
+
+![alt text](./screenshots/webpage.png)
+
 - LinkedIn post explaining the implementation (`linkedin-post.md`)
 
 ## Cleanup
