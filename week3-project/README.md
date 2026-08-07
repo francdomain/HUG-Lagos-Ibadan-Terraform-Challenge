@@ -139,6 +139,9 @@ The root project expects the S3 backend resources to exist before it can plan or
 - Remote backend configured in `backend/`
 - Deployment instructions in this README
 - Screenshot of the VPC in the AWS console (`screenshots/vpc.png`)
+
+![alt text](./screenshots/vpc.png)
+
 - Screenshot of the AWS EC2 console showing the running instance (`screenshots/aws_console.png`)
 - Screenshot of the AWS RDS console showing the running database instance (`screenshots/rds_console.png`)
 - Screenshot of the Nginx landing page (`screenshots/webpage.png`)
