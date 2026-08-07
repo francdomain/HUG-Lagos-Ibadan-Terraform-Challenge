@@ -52,6 +52,8 @@ The root project expects the S3 backend resources to exist before it can plan or
    terraform apply
    ```
 
+   ![alt text](./screenshots/s3.png)
+
 3. **Create the root backend configuration.** Copy `backend.hcl.example` to `backend.hcl` and update the bucket name to match the bucket created above:
 
    ```bash
@@ -64,6 +66,8 @@ The root project expects the S3 backend resources to exist before it can plan or
    cd ..
    terraform init -backend-config=backend.hcl
    ```
+
+   ![alt text](./screenshots/object.png)
 
    > If the S3 bucket name is already taken, change it in both `backend/terraform.tfvars` and `backend.hcl` before applying.
 
